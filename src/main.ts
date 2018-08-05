@@ -5,8 +5,8 @@ import { SwaggerModule, DocumentBuilder } from '@nestjs/swagger';
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
   const options = new DocumentBuilder()
-    .setTitle('Cats example')
-    .setDescription('The cats API description')
+    .setTitle('Json Place Holder API')
+    .setDescription('https://jsonplaceholder.typicode.com/')
     .setVersion('1.0')
     .build();
   const document = SwaggerModule.createDocument(app, options);
