@@ -1,7 +1,7 @@
 # demo
 
 ## Description
-run the app in localHost
+Run the app in localHost:
 
 http://localhost:3000/api/
 
